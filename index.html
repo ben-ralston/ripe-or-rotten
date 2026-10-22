@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ripe or Rotten</title>
+<meta name="description" content="Ripe or Rotten checks every word on your word-tile board at once. Privacy policy and support.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;600&display=swap">
+<style>
+  :root { --bg: #FFFBEF; --fg: #2A2418; --muted: #6E6553; --card: #FFFFFF; --line: #EDE3C8; --accent: #FFD23F; --link: #8A5A00; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17150F; --fg: #F2EEE3; --muted: #A79F8B; --card: #221F17; --line: #353023; --accent: #FFD23F; --link: #FFD23F; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 Inter, system-ui, -apple-system, sans-serif; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px max(20px, env(safe-area-inset-left)) 72px; }
+  header { display: flex; align-items: center; gap: 18px; margin-bottom: 32px; }
+  header img { width: 88px; height: 88px; border-radius: 20px; box-shadow: 0 6px 18px rgba(0,0,0,.15); }
+  h1 { font-family: Fraunces, Georgia, serif; font-weight: 800; font-size: 2.3rem; line-height: 1.1; margin: 0; }
+  .tag { color: var(--muted); margin: 4px 0 0; }
+  nav { display: flex; gap: 10px; margin-bottom: 36px; flex-wrap: wrap; }
+  nav a { background: var(--accent); color: #2A2418; text-decoration: none; font-weight: 600; padding: 8px 16px; border-radius: 99px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 8px 28px 24px; margin-bottom: 24px; }
+  h2 { font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: 1.6rem; margin: 20px 0 4px; }
+  h3 { font-size: 1rem; margin: 22px 0 4px; }
+  p, li { max-width: 65ch; }
+  .muted { color: var(--muted); font-size: .9rem; }
+  a { color: var(--link); }
+  footer { color: var(--muted); font-size: .85rem; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icon.png" alt="Ripe or Rotten app icon: a fresh letter tile with a tick and a spotty one with a cross">
+    <div>
+      <h1>Ripe or Rotten</h1>
+      <p class="tag">Point your iPhone at a word-tile board and every word is checked at once.</p>
+    </div>
+  </header>
+  <nav><a href="#support">Support</a><a href="#privacy">Privacy policy</a></nav>
+
+  <section id="support">
+    <h2>Support</h2>
+    <h3>How it works</h3>
+    <p>Open the app and point the camera at your board. After a moment it locks onto the tiles and colors every word: green if it's in the dictionary, red if it isn't. You can also pick a photo with the Photos button.</p>
+    <h3>A letter was read wrong</h3>
+    <p>Tap the tile and pick the right letter. If something that isn't a tile was picked up, choose "Not a tile". Pinch to zoom on big boards.</p>
+    <h3>Which dictionary does it use?</h3>
+    <p>The free ENABLE word list, about 173,000 words. It leaves out a few two-letter words some groups allow, such as QI, ZA and OK.</p>
+    <h3>Still stuck?</h3>
+    <p>Email <a href="mailto:compost.receipt_8f@icloud.com">compost.receipt_8f@icloud.com</a> and say what happened. A photo of the board helps.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy policy</h2>
+    <p class="muted">Effective 19 October 2026</p>
+    <p><strong>Ripe or Rotten collects no data.</strong> It has no accounts, no ads, no analytics and no tracking, and it never connects to the internet.</p>
+    <h3>Camera and photos</h3>
+    <p>The camera feed and any photo you pick are read on your iPhone to find the letters. They are never saved by the app, never uploaded and never shared. The camera only runs while the scan screen is open.</p>
+    <h3>What stays on your phone</h3>
+    <p>Your dictionary setting is saved on your iPhone so the app remembers it. Deleting the app deletes it.</p>
+    <h3>Children</h3>
+    <p>The app is suitable for all ages and collects nothing from anyone, including children.</p>
+    <h3>Changes and contact</h3>
+    <p>If this policy changes, this page will be updated with a new date. Questions: <a href="mailto:compost.receipt_8f@icloud.com">compost.receipt_8f@icloud.com</a>.</p>
+  </section>
+
+  <footer>© 2026 Benjamin Ralston. Not affiliated with any word-game maker.</footer>
+</div>
+</body>
+</html>
